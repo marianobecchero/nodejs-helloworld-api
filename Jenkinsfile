@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        /*stage("Builad") {
+        /*stage("Builasd") {
             steps {
                 sh 'npm install'
             }
