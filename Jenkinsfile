@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        /*stage("jBuild") {
+        /*stage("Build") {
             steps {
                 sh 'npm install'
             }
