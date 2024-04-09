@@ -4,14 +4,14 @@ pipeline {
     tools {nodejs 'NodeJS'}
     
     stages {
-        /*stage("Builasds") {
+        stage("Build") {
             steps {
                 sh 'npm install'
             }
-        }*/
+        }
         stage("Test") {
             steps {
-                sh 'npm -v'
+                sh 'npm test'
             }   
         }
     }
