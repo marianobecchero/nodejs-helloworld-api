@@ -4,7 +4,7 @@ pipeline {
     tools {nodejs "nodejs"}
     
     stages {
-        /*stage("Builasd") {
+        /*stage("Builasds") {
             steps {
                 sh 'npm install'
             }
