@@ -2,14 +2,14 @@ pipeline {
     agent any
     
     stages {
-        stage("Instalar Dependencias") {
+        stage("Build") {
             steps {
-                sh 'install'
+                sh 'npm install'
             }
         }
-        stage("Ejecutar Pruebas") {
+        stage("Test") {
             steps {
-                sh 'test'
+                sh 'npm test'
             }   
         }
     }
