@@ -1,16 +1,16 @@
 pipeline {
-   agent any
-   stages {
-      stage('Build') {
-         steps {
-            sh 'npm install'
-         }
-      }
-
-      stage('Test') {
-         steps {
-            sh 'npm test'
-         }
-      }
-   }
+    agent any
+    
+    stages {
+        stage("Instalar Dependencias") {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage("Ejecutar Pruebas") {
+            steps {
+                sh 'npm test'
+            }   
+        }
+    }
 }
