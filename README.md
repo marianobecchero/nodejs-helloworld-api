@@ -37,6 +37,7 @@ curl http://localhost:3000
 - Paso 2: En mi instancia de Multipass realizo la instalación de las herramientas necesarias para ejecutar el proyecto y poder hacer la sincronización entre mi instancia, mi cuenta de GitHub y el pipeline.
 - Paso 3: Con la herramienta Ngrok expongo el servicio de Jenkins hacia internet para tener acceso remoto.
 - Paso 4: Configuro el webhook en mi repositorio de GitHub para que cuando realizo un push se ejecute automáticamente el pipeline.
+- Paso 5: El pipeline hace el build del proyecto y ejecute un test.
 
 ### Evidencias de resultados
 
