@@ -27,4 +27,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64
-          tags: ${{ secrets.DOCKERHUBUSERNAME }}/nodejs-helloworld-api:latest
+          tags: ${{ secrets.DOCKERHUBUSERNAME }}/desafio9:latest
